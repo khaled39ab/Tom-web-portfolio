@@ -1,0 +1,67 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+h1{
+    font-family: 'Hanalei Fill', cursive;
+    font-size: 50px;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.heading_name{
+    color: rgb(31, 238, 159);
+}
+.half-width{
+    width: 40%;
+    float: left; 
+    margin-left: 4%;
+    padding-left: ;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.link-button{
+    color: red;
+    font-weight: bolder;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, yellow, yellowgreen);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.last-banner{
+    background-image: url("images/last-banner.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.sub-highlights{
+    color: yellow;
+}
+.exp-decoration{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+}
+.exp-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#win-area{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue, cyan);
+    border-image-slice: 1;
+}
+#loser-area{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,pink, tomato);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    size: 12px;
+}
